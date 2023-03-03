@@ -1,4 +1,4 @@
-# binary_trees
+/* binary trees */
 This repository contains the concepts and codes explaining binary
 trees in C programming.
 
@@ -165,4 +165,11 @@ If node has no sibling, return NULL
 
 **Task 18** - Uncle
 
+Write a function that finds the uncle of a node
+
+Prototype: binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+Where node is a pointer to the node to find the uncle
+Your function must return a pointer to the uncle node
+If node is NULL, return NULL
+If node has no uncle, return NULL
 
